@@ -1,15 +1,15 @@
 {
-    "version": "11.20.0",
+    "version": "11.20.1",
     "description": "Database migration tool that favors simplicity and convention over configuration.",
     "homepage": "https://flywaydb.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.red-gate.com/maven/release/com/redgate/flyway/flyway-commandline/11.20.0/flyway-commandline-11.20.0-windows-x64.zip",
-            "hash": "sha1:39278adcbdf24d54eb82c8e6a8da8ea511130087"
+            "url": "https://download.red-gate.com/maven/release/com/redgate/flyway/flyway-commandline/11.20.1/flyway-commandline-11.20.1-windows-x64.zip",
+            "hash": "sha1:ce72dc89c91d349f4cc1d619403b85587e17cda0"
         }
     },
-    "extract_dir": "flyway-11.20.0",
+    "extract_dir": "flyway-11.20.1",
     "bin": "flyway.cmd",
     "persist": [
         "conf",
