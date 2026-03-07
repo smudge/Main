@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-    "version": "1.23.7",
+    "version": "1.23.8",
     "description": "A developer CLI that reduces the time it takes to get started on Azure",
     "homepage": "https://aka.ms/azd",
     "license": "MIT",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "arm64": {
-            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.7/azd-windows-arm64-alpha.zip",
-            "hash": "72fc3adf44f15770dfcad19d6f644ddbd98a46cc744fcea0074f8d1ff2a11d19"
+            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.8/azd-windows-arm64-alpha.zip",
+            "hash": "b177d80159a6ab0ccec3601823d380dcb100347be971d6c4a122762ce2bfe4b2"
         },
         "64bit": {
-            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.7/azd-windows-amd64.zip",
-            "hash": "92769e2a9d74a9c36d271776c96ea6266e2bae697ce19d4c36695cea48eca804"
+            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.23.8/azd-windows-amd64.zip",
+            "hash": "0c9c084c1c0f9f6eea11bd63bd7faf36c857e540a433fd6d89b32a5ad9a577e4"
         }
     },
     "pre_install": "Get-Item \"$dir\\azd-*.exe\" | Rename-Item -NewName \"azd.exe\"",
